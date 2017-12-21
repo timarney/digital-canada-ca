@@ -61,6 +61,33 @@ jobs:
           name: "Test French"
           command: htmlproofer /home/circleci/snc-website --allow-hash-href --check-favicon --check-html --disable-external --file-ignore=/assets/lib/
 
+  a11y:
+    docker:
+      - image: circleci/node:9.2.0
+    steps:
+      # Restore compiled cache (persisted across jobs)
+      - run: echo $CIRCLE_SHA1 > .circle-sha
+      - restore_cache:
+          keys:
+            - cds-website-dist-{{ checksum ".circle-sha" }}
+      - run:
+          name: "Install dependencies"
+          command: |
+            npm install axe-cli -g
+            npm install -g serve
+
+      - run:
+          name: "Run a11y test English"
+          command: |
+            serve /home/circleci/cds-website
+            axe http://localhost:5000
+
+      - run:
+          name: "Run a11y test French"
+          command: |
+            serve /home/circleci/snc-website
+            axe http://localhost:5000
+
   deploy:
     docker:
       - image: cdssnc/aws-cli
@@ -100,10 +127,14 @@ workflows:
       - test:
           requires:
             - build
+      - a11y:
+          requires:
+            - build
       - deploy:
           requires:
             - build
             - test
+            - a11y
           filters:
             branches:
               only: master
