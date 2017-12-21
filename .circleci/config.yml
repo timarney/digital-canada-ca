@@ -65,6 +65,19 @@ jobs:
     docker:
       - image: circleci/node:9.2.0
     steps:
+      - restore_cache:
+          key: v1-phantomjs-2-1-1
+      - run:
+          name: Install phantomjs
+          command: |
+            [ -f /tmp/phantomjs ] || curl --output /tmp/phantomjs https://s3.amazonaws.com/circle-downloads/phantomjs-2.1.1
+            sudo chmod ugo+x /tmp/phantomjs
+            sudo ln -sf /tmp/phantomjs /usr/local/bin/phantomjs
+      - save_cache:
+          key: v1-phantomjs-2-1-1
+          paths:
+            - /tmp/phantomjs
+
       # Restore compiled cache (persisted across jobs)
       - run: echo $CIRCLE_SHA1 > .circle-sha
       - restore_cache:
