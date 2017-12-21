@@ -73,8 +73,8 @@ jobs:
       - run:
           name: "Install dependencies"
           command: |
-            npm install axe-cli -g
-            npm install -g serve
+            sudo npm install axe-cli -g
+            sudo npm install -g serve
 
       - run:
           name: "Run a11y test English"
