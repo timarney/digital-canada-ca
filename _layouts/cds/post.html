@@ -7,7 +7,18 @@ layout: cds/base
     {% include cds/site-menu.html %}
 
     {% if page.image-alt %}
-        <div class="page-banner" role="img" aria-label="{{ page.image-alt }}" style="background-image: url('/assets/img/cds/post-images/{{ page.image }}')"></div>
+<!--        <div class="page-banner" role="img" aria-label="{{ page.image-alt }}" style="background-image: url('/assets/img/cds/post-images/{{ page.image }}')"></div>-->
+	
+	<div class="page-banner-div">
+	<img srcset="/assets/img/cds/post-images/{{ page.image }}-320w.jpg 320w,
+          /assets/img/cds/post-images/{{ page.image }}-800w.jpg 800w,
+          /assets/img/cds/post-images/{{ page.image }}-1600w.jpg 1600w"
+		sizes="(max-width: 320px) 320px,
+			  (max-width: 480px) 800px,
+			  (max-width: 800px) 1600px"
+		src="/assets/img/cds/post-images/{{ page.image }}-1600w.jpg" alt="{{ page.image-alt }}" class="page-banner-poc">
+	</div>
+		
     {% else %}
         <div class="page-banner" style="background-image: url('/assets/img/cds/post-images/{{ page.image }}')"></div>
     {% endif %}

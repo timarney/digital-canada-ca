@@ -84,6 +84,19 @@
   background: none;
 }
 
+.page-banner-div{
+	@include mobile-only  { height: 20rem; }
+	@include tablet  { height: 30rem; }
+  	@include desktop { height: 40rem; }
+	position: relative;
+	overflow: hidden;
+}
+.page-banner-poc{
+	width: 100%;
+	@include tablet  {position: absolute; }
+	@include desktop { position: absolute; top: -50%; }
+}
+
 .page-banner {
   background-color    : $dark-grey;
   background-size     : cover;
@@ -97,7 +110,7 @@
   .page-blogpost & {
     height: 25rem;
     @include tablet {
-      height: 30rem;
+      height: 30rem
     }
 
     @include desktop {
