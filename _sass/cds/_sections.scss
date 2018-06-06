@@ -903,21 +903,36 @@ span.live {
         font-weight: 500;
     }
 
-    .photo {
-        display: block;
-        height: 15rem;
-        width: 100%;
-        background-size: cover;
-        background-position: center center;
-
-        @include tablet {
-            margin-top: 1rem;
-        }
-
-        @include desktop {
-            height: 20rem;
-        }
-    }
+//    .photo {
+//        display: block;
+//        height: 15rem;
+//        width: 100%;
+//        background-size: cover;
+//        background-position: center center;
+//
+//        @include tablet {
+//            margin-top: 1rem;
+//        }
+//
+//        @include desktop {
+//            height: 20rem;
+//        }
+//    }
+	
+	.photo-poc{
+		display: block; 
+		width: 100%;
+		@include tablet{
+			margin-top: 1rem;
+		}
+	}
+	
+	.photo-container{
+		overflow: hidden;
+		@include mobile-only{
+			max-height: 15rem;
+		}
+	}
 
     h2 {
         margin-top: 1.5rem;

@@ -3,7 +3,7 @@ title: "Retrospective on the EnerGuide API: a lot of “firsts” and lessons le
 description: "As our partnership with NRCan on the EnerGuide API winds down, the CDS product team held a retrospective to reflect on our experience, accomplishments and lessons learned. "
 author: Jennifer Fletcher, Partnerships
 date: 2018-04-25 09:00:00 -0400
-image: blog-energuide-retro.jpg
+image: blog-energuide-retro
 image-alt: Seven members of the team are seated around a table. They are looking at two people standing at the front of the room grouping post-it notes on on the whiteboard.
 lang: en
 layout: cds/post

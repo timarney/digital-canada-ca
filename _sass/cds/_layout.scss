@@ -85,16 +85,17 @@
 }
 
 .page-banner-div{
-	@include mobile-only  { height: 20rem; }
-	@include tablet  { height: 30rem; }
-  	@include desktop { height: 40rem; }
+	@include mobile-only  { max-height: 20rem; min-height: 10rem;}
+	@include tablet  { max-height: 35rem; min-height: 20rem; }
+  	@include desktop { max-height: 40rem; min-height: 30rem; }
 	position: relative;
 	overflow: hidden;
 }
 .page-banner-poc{
 	width: 100%;
-	@include tablet  {position: absolute; }
+	@include tablet  { position: absolute; top: -40%; }
 	@include desktop { position: absolute; top: -50%; }
+	@include tv { position: absolute; top: -80%; }
 }
 
 .page-banner {
