@@ -103,8 +103,8 @@ h1, .h1 {
         border-bottom: none;
         margin-top: 2rem;
         color: $white;
-        font-size   : 3rem;
-    	line-height : 1.2em;
+        font-size: 8.9rem;
+    	line-height : 14.4rem;
 
         @include mobile_only {
           padding: 1.5rem 1.5rem;
@@ -112,18 +112,18 @@ h1, .h1 {
 
         @include tablet {
           margin-top: 0.5rem;
-          font-size: 7rem;
+//          font-size: 7rem;
           //line-height: 8rem;
         }
 
         @include desktop {
-        	font-size: 9rem;
+//        	font-size: 9rem;
         	//line-height: 9rem;
         }
 
         @include tv {
           margin-top: 1.5rem;
-          font-size: 10rem;
+//          font-size: 10rem;
           //line-height: 10rem;
         }
       }
