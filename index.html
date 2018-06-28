@@ -23,22 +23,22 @@ trans_url: '/'
 				<div class="col-sm-10 col-sm-offset-1 col-xs-12">
 					<h2 class="section--title">What we do</h2>
 					<p class="text-left">We are focused on delivery: helping government design and build better services.</p>
-					<h3>We are partnering to...</h3>
+					<h3 class="h4">We are partnering to...</h3>
 					
 					<div class="row">
 						<div class="col-xs-12 col-sm-4 icon-text">
 							<div class="cds-icon"><i class="fa fa-code" aria-hidden="true"></i></div>
-							<div class="text">deliver solutions</div>
+							<div class="h4">deliver solutions</div>
 						</div>
 						
 						<div class="col-xs-12 col-sm-4 icon-text">
 							<div class="cds-icon"><i class="fa fa-cogs" aria-hidden="true"></i></div>
-							<div class="text">build capacity</div>
+							<div class="h4">build capacity</div>
 						</div>
 						
 						<div class="col-xs-12 col-sm-4 icon-text">
 							<div class="cds-icon"><i class="fa fa-comments-o" aria-hidden="true"></i></div>
-							<div class="text">provide advice</div>
+							<div class="h4">provide advice</div>
 						</div>
 					</div>
 					<p class="text-left bottom-mar">We are agile and iterate based on user feedback. We learn by doing.</p>
@@ -162,8 +162,8 @@ trans_url: '/'
                 <a class="post" href="{{ post.url | relative_url }}">
                     <div class="image" style="background-image:url('/assets/img/cds/post-images/{{ post.image }}')"></div>
                     <div class="text">
-                        <h3>{{ post.title }}</h3>
-					<div class="date">{{ post.date | date: '%B %-d, %Y' }}</div>
+                        <h3 class="caption">{{ post.title }}</h3>
+					<div class="date caption">{{ post.date | date: '%B %-d, %Y' }}</div>
                     </div>
                 </a>
             </div>
