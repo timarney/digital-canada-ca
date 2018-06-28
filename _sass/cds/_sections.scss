@@ -40,14 +40,14 @@
     }
 
     h3 {
-        font-weight: 100;
-        line-height: 2.75rem;
+//        font-weight: 100;
+//        line-height: 2.75rem;
         margin: 2rem 0;
 
         @include tablet {
-            font-size: 2.4rem;
-            font-weight: 300;
-            line-height: 3.2rem;
+//            font-size: 2.4rem;
+//            font-weight: 300;
+//            line-height: 3.2rem;
             margin-top: 5rem;
         }
     }
@@ -152,11 +152,11 @@
         }
 
         p {
-            font-size: 2rem;
-            line-height: 1.75em;
+//            font-size: 2rem;
+//            line-height: 1.75em;
 
             @include desktop {
-                font-size: 2.5rem;
+//                font-size: 2.5rem;
             }
         }
 
@@ -242,8 +242,8 @@
     .pretitle {
         background: rgba(0, 0, 0, 0.95);
         display: inline-block;
-        font-size: 1.25rem;
-        font-weight: 300;
+//        font-size: 1.25rem;
+//        font-weight: 300;
         padding: 0.5rem 1rem;
         margin-bottom: 1rem;
 
@@ -263,20 +263,20 @@
     }
     
     h2 {
-        font-size: 3.25rem;
-        font-weight: 100;
+//        font-size: 3.25rem;
+//        font-weight: 100;
         margin: 0.5rem 0 2rem 0;
     }
 
     .postitle {
-        font-size: 2rem;
-        font-weight: 300;
+//        font-size: 2rem;
+//        font-weight: 300;
         margin-top: 1.5rem;
         margin-bottom: 2rem;
 
         @include tablet {
-            margin-top: 5rem;
-            font-weight: 100;
+//            margin-top: 5rem;
+//            font-weight: 100;
         }
 
         @include desktop {
@@ -328,14 +328,14 @@
 
             .date {
                 color: $dark-grey;
-                font-size: 1rem;
-                font-weight: 500;
+//                font-size: 1rem;
+//                font-weight: 500;
 			  margin-top: 1rem;
             }
 
             h3 {
-                font-weight: 500;
-                font-size: 1.5rem;
+//                font-weight: 500;
+//                font-size: 1.5rem;
                 margin: 0;
                 margin-top: 0.5rem;
             }
@@ -413,18 +413,18 @@ span.live {
 .work-in-progress--product-module {
 
     h3 {
-	    font-weight: 500; 
+//	    font-weight: 500; 
 	    
         @include mobile_only {
-            font-size: 24pt;
+//            font-size: 24pt;
         }
 
         @include tablet {
-            font-size: 26pt;
+//            font-size: 26pt;
         }
 
         @include desktop {
-            font-size: 30pt;
+//            font-size: 30pt;
         }
 
         margin-bottom: 0px;
@@ -441,7 +441,7 @@ span.live {
         margin-left: 20px;
 
         @include mobile_only {
-            font-size: 10pt;
+//            font-size: 10pt;
             padding: 3px 20px 3px 20px;
             border-radius: 6px;
             margin-left: 15px;
@@ -453,14 +453,14 @@ span.live {
             margin-bottom: 30px;
             padding: 5px 20px 5px 20px;
             border-radius: 6px;
-            font-size: 10pt;
+//            font-size: 10pt;
         }
 
         @include desktop {
             margin-bottom: 30px;
             padding: 5px 30px 5px 30px;
             border-radius: 6px;
-            font-size: 12pt;
+//            font-size: 12pt;
         }
     }
 
@@ -474,7 +474,7 @@ span.live {
         margin-left: 20px;
 
         @include mobile_only {
-            font-size: 10pt;
+//            font-size: 10pt;
             padding: 3px 20px 3px 20px;
             border-radius: 6px;
             margin-left: 15px;
@@ -486,14 +486,14 @@ span.live {
             margin-bottom: 30px;
             padding: 5px 20px 5px 20px;
             border-radius: 6px;
-            font-size: 10pt;
+//            font-size: 10pt;
         }
 
         @include desktop {
             margin-bottom: 30px;
             padding: 5px 30px 5px 30px;
             border-radius: 6px;
-            font-size: 12pt;
+//            font-size: 12pt;
         }
     }
 
@@ -507,7 +507,7 @@ span.live {
         margin-left: 20px;
 
         @include mobile_only {
-            font-size: 10pt;
+//            font-size: 10pt;
             padding: 3px 20px 3px 20px;
             border-radius: 6px;
             margin-left: 15px;
@@ -519,14 +519,14 @@ span.live {
             margin-bottom: 30px;
             padding: 5px 20px 5px 20px;
             border-radius: 6px;
-            font-size: 10pt;
+//            font-size: 10pt;
         }
 
         @include desktop {
             margin-bottom: 30px;
             padding: 5px 30px 5px 30px;
             border-radius: 6px;
-            font-size: 12pt;
+//            font-size: 12pt;
         }
     }
 
@@ -540,7 +540,7 @@ span.live {
         margin-left: 20px;
 
         @include mobile_only {
-            font-size: 10pt;
+//            font-size: 10pt;
             padding: 3px 20px 3px 20px;
             border-radius: 6px;
             margin-left: 15px;
@@ -552,14 +552,14 @@ span.live {
             margin-bottom: 30px;
             padding: 5px 20px 5px 20px;
             border-radius: 6px;
-            font-size: 10pt;
+//            font-size: 10pt;
         }
 
         @include desktop {
             margin-bottom: 30px;
             padding: 5px 30px 5px 30px;
             border-radius: 6px;
-            font-size: 12pt;
+//            font-size: 12pt;
         }
     }
 
@@ -573,7 +573,7 @@ span.live {
         margin-left: 20px;
 
         @include mobile_only {
-            font-size: 10pt;
+//            font-size: 10pt;
             padding: 3px 20px 3px 20px;
             border-radius: 6px;
             margin-left: 15px;
@@ -585,31 +585,31 @@ span.live {
             margin-bottom: 30px;
             padding: 5px 20px 5px 20px;
             border-radius: 6px;
-            font-size: 10pt;
+//            font-size: 10pt;
         }
 
         @include desktop {
             margin-bottom: 30px;
             padding: 5px 30px 5px 30px;
             border-radius: 6px;
-            font-size: 12pt;
+//            font-size: 12pt;
         }
     }
 
     h4 {
-        font-weight: 500;
+//        font-weight: 500;
 
         @include mobile_only {
             margin-top: 5px;
         }
 
         @include tablet {
-            font-size: 18pt;
+//            font-size: 18pt;
             margin-top: 10px;
         }
 
         @include desktop {
-            font-size: 22pt;
+//            font-size: 22pt;
             margin-top: 20px;
         }
     }
@@ -640,15 +640,15 @@ span.live {
     padding-top: 5px;
 
     @include mobile_only {
-        font-size: 12pt;
+//        font-size: 12pt;
     }
 
     @include tablet {
-        font-size: 12pt;
+//        font-size: 12pt;
     }
 
     @include desktop {
-        font-size: 14pt;
+//        font-size: 14pt;
     }
 }
 
@@ -767,7 +767,7 @@ span.live {
         		}
 			
 			@include mobile-only{
-				font-size: 1.75rem;
+//				font-size: 1.75rem;
 			}
 		}
 		li{
@@ -779,11 +779,11 @@ span.live {
 
 		h4{
 			@include mobile-only{
-				font-size: 1.75rem;
+//				font-size: 1.75rem;
 			}
 			
-			font-size: 2.25rem; 
-			font-weight: 500; 
+//			font-size: 2.25rem; 
+//			font-weight: 500; 
 			margin-bottom: 2rem;
 		}
     }
@@ -794,15 +794,15 @@ span.live {
     color: $white;
 
     .section-smallcaps-title {
-        font-weight: 500;
-        font-size: 1.75rem;
+//        font-weight: 500;
+//        font-size: 1.75rem;
 
         @include tablet {
-            font-size: 2rem;
+//            font-size: 2rem;
         }
 
         @include tv {
-            font-size: 2.25rem;
+//            font-size: 2.25rem;
         }
     }
 
@@ -811,12 +811,12 @@ span.live {
         margin: 0 0 11.5px;
 
         @include tablet {
-            font-size: 2rem;
+//            font-size: 2rem;
         }
 
         @include tv {
-            font-size: 2.25rem;
-            line-height: 3.5rem;
+//            font-size: 2.25rem;
+//            line-height: 3.5rem;
             margin-bottom: 2.75rem;
         }
 
@@ -856,25 +856,25 @@ span.live {
         margin: 0 0 11.5px;
 
         @include tablet {
-            font-size: 2rem;
+//            font-size: 2rem;
         }
 
         @include tv {
-            font-size: 2.25rem;
-            line-height: 3.5rem;
+//            font-size: 2.25rem;
+//            line-height: 3.5rem;
             margin-bottom: 2.75rem;
         }
     }
 
     h4 {
-        font-size: 1.75rem;
+//        font-size: 1.75rem;
 
         @include tablet {
-            font-size: 2rem;
+//            font-size: 2rem;
         }
 
         @include tv {
-            font-size: 2.25rem;
+//            font-size: 2.25rem;
         }
     }
 
@@ -896,8 +896,8 @@ span.live {
 	}
 
     label {
-        font-size: 2.25rem;
-        font-weight: 200;
+//        font-size: 2.25rem;
+//        font-weight: 200;
     }
 
     .form-control {
@@ -970,19 +970,19 @@ span.live {
     }
 
     .date {
-        font-size: 1.5rem;
+//        font-size: 1.5rem;
         margin: 0rem 0 1rem 0;
 
         @include tablet {
-            font-size: 1.75rem;
-            font-weight: 300;
+//            font-size: 1.75rem;
+//            font-weight: 300;
         }
     }
 
     .author {
         margin: 2rem 0 0 0;
-        font-weight: 500;
-	   font-size: 2.25rem;
+//        font-weight: 500;
+//	   font-size: 2.25rem;
     }
 
     .photo {
@@ -1006,12 +1006,12 @@ span.live {
     }
 
     .text {
-        font-size: 2rem;
-        font-weight: 100;
-        line-height: 1.6em;
+//        font-size: 2rem;
+//        font-weight: 100;
+//        line-height: 1.6em;
 
         @include desktop {
-            font-size: 2.25rem;
+//            font-size: 2.25rem;
         }
     }
 
@@ -1036,27 +1036,27 @@ article.post {
 
     a.large-link {
         @include tablet {
-            font-size: 2.25rem;
+//            font-size: 2.25rem;
         }
 
         @include tv {
-            font-size: 2.25rem;
+//            font-size: 2.25rem;
         }
     }
 
     .post-header {
-        font-weight: 500;
-        font-size: 1.5rem;
+//        font-weight: 500;
+//        font-size: 1.5rem;
         margin: 1rem 0 2rem 0;
 
         time {
             display: block;
-            font-weight: 500;
+//            font-weight: 500;
         }
 
         .author {
             display: block;
-            font-weight: 500;
+//            font-weight: 500;
         }
     }
 }
@@ -1102,12 +1102,12 @@ article.post {
         border-radius: 0;
         border: $primary-color 2px solid; // padding: 2rem 1rem;
         height: 42px;
-        font-weight: 100;
-        font-size: 2rem;
+//        font-weight: 100;
+//        font-size: 2rem;
 	    width: 100%;
 
         &::placeholder {
-            font-weight: 100;
+//            font-weight: 100;
             font-style: italic;
             color: #bbb !important;
         }
@@ -1123,12 +1123,12 @@ article.post {
 //	    margin: auto;
 //	    padding-left: 0.2rem;
 	    padding-bottom: 0.5rem;
-	    font-size: 2rem;
+//	    font-size: 2rem;
 		color: $dark-grey;
-	    font-weight: 100;
+//	    font-weight: 100;
 	    
 	    @include mobile-only{
-		    font-size: 1.75rem;
+//		    font-size: 1.75rem;
 	    }
     }
 
@@ -1142,9 +1142,9 @@ article.post {
     }
 
     .mce-privacy {
-        font-size: 1.5rem;
+//        font-size: 1.5rem;
         text-align: center;
-        font-weight: 100;
+//        font-weight: 100;
         margin-top: 1rem;
     }
 }
@@ -1153,19 +1153,19 @@ article.post {
 // and create specialized H3's etc. where needed.
 .page-legal {
     h2 {
-        font-weight: 500;
+//        font-weight: 500;
 
         @include desktop {
-            font-size: 2.9rem;
+//            font-size: 2.9rem;
             margin: 4.75rem 0 1rem 0;
         }
     }
 
     h3 {
-        font-weight: 500;
+//        font-weight: 500;
 
         @include desktop {
-            font-size: 2.45rem;
+//            font-size: 2.45rem;
             margin: 3rem 0 1.5rem 0;
         }
     }

@@ -2,7 +2,7 @@
 // Video Controls
 .video-banner--control-button {
 	color: $white !important;
-	font-size: 1.25rem;
+//	font-size: 1.25rem;
 	position: absolute;
 	left: 0.5rem;
 	bottom: 1rem;
@@ -37,7 +37,7 @@
 	
 	position: relative;
 	display: inline-block;
-	font-weight: 400;
+//	font-weight: 400;
 	padding: 1rem 1.5rem;
 	border: $primary-color 2px solid;
 	border-radius: 1rem;
@@ -45,7 +45,7 @@
 	transition: all 0.3s ease-in-out;
 	color: $secondary-color;
 	margin: 2rem 0;
-	font-size: 1.75rem;
+//	font-size: 1.75rem;
 
 	&:hover {
 		border-color: $secondary-color;
@@ -79,7 +79,7 @@
 	&.small {
 		margin: 1rem 0;
 		padding: 0.5rem;
-		font-size: 1.2rem
+//		font-size: 1.2rem
 	}
 
 }
@@ -135,7 +135,7 @@
 .text {
 	display: inline-block;
 	margin-left: 1.5rem;
-	font-size: 2rem;
+//	font-size: 2rem;
 }
 }
 
@@ -194,12 +194,12 @@
 	}
 
 	.name {
-		font-size: 2.35rem;
-		font-weight: 300;
+//		font-size: 2.35rem;
+//		font-weight: 300;
 	}
 
 	.title {
-		font-size: 1.5rem;
+//		font-size: 1.5rem;
 		color: #4c4c4c;
 	}
 
@@ -301,16 +301,16 @@
 	h3 {
 		margin: 0;
 		text-align: center;
-		font-size: 2.5rem;
+//		font-size: 2.5rem;
 		margin-bottom: 1.5rem;
 
 		@include tablet {
 			text-align: left;
-			font-size: 3rem;
+//			font-size: 3rem;
 		}
 
 		@include desktop {
-			font-size: 3.5rem;
+//			font-size: 3.5rem;
 		}
 	}
 }
@@ -318,8 +318,8 @@
 // Blogpost page
 .page-blogpost {
 	h1 {
-		font-size: 4.5rem;
-		font-weight: 100;
+//		font-size: 4.5rem;
+//		font-weight: 100;
 		margin-top: 0;
 		margin-top: 1.5rem;
 		color: $black;
@@ -329,19 +329,19 @@
 	}
 	
 	h2{
-		font-size: 3rem;
-		line-height: 4.25rem;
+//		font-size: 3rem;
+//		line-height: 4.25rem;
 	}
 	h3{
-		line-height: 3.25rem;
-		font-weight: 400;
-		font-size: 2.5rem;
+//		line-height: 3.25rem;
+////		font-weight: 400;
+//		font-size: 2.5rem;
 	}
 
 	.header-translation{
-		font-size: 1.75rem;
-		font-weight: 100;
-		line-height: 2.25rem;
+//		font-size: 1.75rem;
+//		font-weight: 100;
+//		line-height: 2.25rem;
 		padding-top: 2rem;
 		padding-bottom: 2rem;
 		
@@ -356,15 +356,15 @@
 	}
 	
 	.translation-caption{
-		font-size: 1.5rem;
+//		font-size: 1.5rem;
 		clear: both;
-		line-height: 2.5rem;
+//		line-height: 2.5rem;
 	}
 
 	.blogpost-pretitle {
-		font-size: 2rem;
-		text-transform: uppercase;
-		font-weight: bold;
+//		font-size: 2rem;
+//		text-transform: uppercase;
+//		font-weight: bold;
 		position: relative;
 
 
@@ -389,13 +389,13 @@
 
 	time {
 		margin-bottom: 1.75rem;
-		font-size: 2rem;
-		font-weight: 100 !important;
+//		font-size: 2rem;
+//		font-weight: 100 !important;
 	}
 
 	p {
 		margin-bottom: 2.75rem;
-		line-height: 1.6em;
-		font-size: 2.25rem;
+//		line-height: 1.6em;
+//		font-size: 2.25rem;
 	}
 }
