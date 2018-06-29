@@ -111,8 +111,7 @@
 	@include mobile_only {
 		margin: 0 2rem;
 	}
-	li {margin: 2rem 0 2rem 2rem;
-	}
+	li {margin: 2rem 0 2rem 2rem;}
 
 	i {
 		padding: 1.8rem;
@@ -130,15 +129,15 @@
 		}
 	}
 
-.contact-icon {
-	display: inline-block;
-}
+	.contact-icon {
+		display: inline-block;
+	}
 
-.text {
-	display: inline-block;
-	margin-left: 1.5rem;
-//	font-size: 2rem;
-}
+	.text {
+		display: inline-block;
+		margin-left: 1.5rem;
+	//	font-size: 2rem;
+	}
 }
 
 .contact-info-container {
@@ -154,10 +153,6 @@
 	margin: 0;
 	padding: 0;
 	text-align: center;
-	
-	@include tablet {
-		
-	}
 
 	&.exec {
 		padding-bottom: 5rem;
