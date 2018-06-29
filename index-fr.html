@@ -13,7 +13,7 @@ permalink: '/'
 			<div class="row">
 				<div class="col-sm-10 col-sm-offset-1 col-xs-12">
 					<p class="lead"><a id="mission"></a>Le gouvernement du Canada doit adopter de nouveaux outils et de nouvelles méthodes en vue d’améliorer la façon dont il conçoit, élabore et offre ses services.</p>
-					<p class="text">Le Service numérique canadien (SNC) regroupe les compétences et l’expertise nécessaires pour accélérer ce changement.</p>
+					<p>Le Service numérique canadien (SNC) regroupe les compétences et l’expertise nécessaires pour accélérer ce changement.</p>
 				</div>
 			</div>
 	</section>
@@ -25,22 +25,22 @@ permalink: '/'
 			<div class="col-sm-10 col-sm-offset-1 col-xs-12">
 				<h2 class="section--title">Ce que nous faisons</h2>
 				<p class="text-left">Le SNC se concentre sur la prestation : aider le gouvernement à concevoir et élaborer de meilleurs services.</p>
-				<h3>Nous collaborons afin de...</h3>
+				<h3 class="h4">Nous collaborons afin de...</h3>
 				
 				<div class="row">
 					<div class="col-xs-12 col-sm-4 icon-text">
 						<div class="cds-icon"><i class="fa fa-code" aria-hidden="true"></i></div>
-						<div class="text">fournir des solutions</div>
+						<div class="h4">fournir des solutions</div>
 					</div>
 					
 					<div class="col-xs-12 col-sm-4 icon-text">
 						<div class="cds-icon"><i class="fa fa-cogs" aria-hidden="true"></i></div>
-						<div class="text">créer la capacité</div>
+						<div class="h4">créer la capacité</div>
 					</div>
 					
 					<div class="col-xs-12 col-sm-4 icon-text">
 						<div class="cds-icon"><i class="fa fa-comments-o" aria-hidden="true"></i></div>
-						<div class="text what-caption">donner des conseils</div>
+						<div class="h4 bottom-mar">donner des conseils</div>
 					</div>
 				</div>
 				
@@ -150,9 +150,9 @@ permalink: '/'
 			<div class="col-sm-10 col-sm-offset-1 col-xs-12">
 				<div class="row">
 					<div class="col-xs-12 col-sm-5 title">
-						<div class="pretitle">Rapport d’engagement</div>
-						<h2>Le commencement de la conversation</h2>
-						<div class="postitle">Une approche canadienne en matière de gouvernement numérique</div>
+						<div class="pretitle caption">Rapport d’engagement</div>
+						<h2 class="h3">Le commencement de la conversation</h2>
+						<div class="postitle caption">Une approche canadienne en matière de gouvernement numérique</div>
 					</div>
 					<div class="col-md-6 col-xs-12 col-sm-7 text">
 						<p>Au cours de la dernière année, nous avons rencontré des gens de partout au Canada, y compris de
@@ -182,8 +182,8 @@ permalink: '/'
                 <a class="post" href="{{ post.url | relative_url }}">
                     <div class="image" style="background-image:url('/assets/img/cds/post-images/{{ post.image }}')"></div>
                     <div class="text">
-                        <h3>{{ post.title }}</h3>
-					<div class="date">
+                        <h3 class="caption-bold">{{ post.title }}</h3>
+					<div class="date caption">
                             {% assign m = post.date | date: "%-m" %}
                             {{ post.date | date: "%-d" }}
                             {% case m %}

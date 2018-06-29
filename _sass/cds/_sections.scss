@@ -32,7 +32,7 @@
         margin-top: 1.5rem;
 
         @include tablet {
-            margin-bottom: 4rem;
+            margin-bottom: 2rem;
         }
         @include desktop {
             margin-top: 1rem;
@@ -71,7 +71,9 @@
     }
 	
 	.bottom-mar{
-		margin-bottom: 5rem;
+		@include mobile-only{
+			margin-bottom: 5rem;
+		}
 	}
 }
 
