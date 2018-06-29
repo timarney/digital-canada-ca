@@ -35,7 +35,7 @@
 
 .icon-text-list { margin-bottom: 3rem; }
 
-//.button-center { text-align: center; }
+.button-center { text-align: center; }
 
 .button {
 	
@@ -253,6 +253,10 @@
 		display: block;
 		padding: 7.5rem 1.5rem 1.5rem 1.5rem;
 		
+		@include mobile-only{
+			padding: 5rem 1.5rem 1.5rem 1.5rem;
+		}
+		
 		@include tablet {
 			padding: 0 0 0 11rem;
 		}
@@ -261,6 +265,11 @@
 			padding: 0 0 0 12rem;
 		}
 		
+		h2{
+			@include mobile-only{
+				text-align: center;
+			}
+		}
 	}
 
 	.item-icon {
@@ -395,4 +404,6 @@
 //		line-height: 1.6em;
 //		font-size: 2.25rem;
 	}
+	
+	
 }

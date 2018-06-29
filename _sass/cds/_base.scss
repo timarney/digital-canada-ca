@@ -151,8 +151,9 @@ h3, .h3 {
 	line-height: 4.5rem;
 	
 	@include mobile-only{
-		font-weight: 100;
+		font-weight: 300;
 		font-size: 2.8rem;
+		line-height: 3.8rem;
 	}
 }
 
