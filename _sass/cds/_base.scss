@@ -74,6 +74,11 @@ p, main ul, main ol {
 		font-size: 3.4rem;
 		line-height: 4.5rem;
 		color: $secondary-color;
+		
+		@include mobile-only{
+			font-size: 2.1rem;
+			line-height: 3.4rem;
+		}
 	}
 }
 
@@ -105,6 +110,7 @@ h1, .h1 {
 	
 	@include mobile_only {
 		padding: 1.5rem 1.5rem;
+		font-size: 5.5rem !important;
 	}
 	
 	@include tablet {
@@ -124,6 +130,11 @@ h2, .h2{
 	font-weight: 100;
 	font-size: 5.5rem;
 	line-height: 8.9rem;
+	
+	@include mobile-only{
+		font-size: 3.4rem;
+		line-height: 4.5rem;
+	}
 
 	@include desktop {
 //		font-size: 2.75rem;
@@ -135,23 +146,14 @@ h2, .h2{
 h3, .h3 {
 	font-family: "HKGrotesk", sans-serif !important;
 	font-weight: 300;
-
-	@include mobile-only {
-		font-size: 2.1rem;
-		line-height: 3.4rem;
-	}
 	
-	@include tablet {
-		font-size: 3.4rem;
-		line-height: 4.5rem;
-	}
+	font-size: 3.4rem;
+	line-height: 4.5rem;
 	
-//	@include desktop{
-//	}
-
-//	@include tv {
-////		font-size: 3.5rem;
-//	}
+	@include mobile-only{
+		font-weight: 100;
+		font-size: 2.8rem;
+	}
 }
 
 h4, .h4{
@@ -172,7 +174,6 @@ h4, .h4{
 	line-height: 2.1rem;
 	font-weight: 400;
 }
-
 
 .section {
 	padding: 6rem 0;
