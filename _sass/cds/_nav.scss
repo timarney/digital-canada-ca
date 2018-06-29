@@ -171,21 +171,19 @@
   // Link Styles
   a {
     color: $white;
-//    font-size: 3.5rem;
-//    font-weight: 100;
+    font-weight: 100;
     margin: 1.5rem;
     text-decoration: none;
     position: relative;
 
     @include tablet {
       color: $secondary-color;
-//      font-size: 1.5rem;
       margin: 0 1.25rem 0.25rem 1.25rem;
 
       .fr & {
 //        font-size: 1.4rem;
-        padding-left: 0em;
-        padding-right: 0em;
+        	padding-left: 0em;
+        	padding-right: 0em;
       }
     }
 
@@ -340,17 +338,16 @@
 		}
 
     a {
-      display: inline-block;
-      color           : $white;
-      display: inline-block;
-//      font-size       : 1.25rem;
-//      font-weight: 400;
-      margin-top: 0.75rem;
-      text-align      : center;
-      text-decoration: none;
-      padding-bottom: 1rem;
-      border-bottom: #000 1px solid;
-      transition: all 0.3s ease-in-out;
+	    display: inline-block;
+	    color: $white;
+	    display: inline-block;
+	    margin-top: 0.75rem;
+	    text-align: center;
+	    text-decoration: none;
+	    padding-bottom: 1rem;
+	    border-bottom: #000 1px solid;
+	    transition: all 0.3s ease-in-out;
+	    line-height: 0rem;
 
       &:hover {
         border-bottom: #CCC 1px solid;
@@ -381,7 +378,8 @@
   }
 
   .glyphicon {
-    margin: 0px;
+	  margin: 0px;
+	  font-size: 1.6rem;
   }
 
   .home & {
@@ -399,8 +397,6 @@
 
 .main-nav-button--text {
 	display: inline-block;
-//	font-size: 1rem;
-	text-transform: uppercase;
 	margin-right: 0.5rem;
 	
 	.home & {

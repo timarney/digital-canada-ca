@@ -2,7 +2,6 @@
 // Video Controls
 .video-banner--control-button {
 	color: $white !important;
-//	font-size: 1.25rem;
 	position: absolute;
 	left: 0.5rem;
 	bottom: 1rem;
@@ -15,15 +14,20 @@
 	}
 
 	.pause-ico {
-		border: $white 2px solid;
+		border: $white 1px solid;
 		border-radius:50%;
 		display: inline-block;
 		margin-right: 0.4rem;
-		padding: 0.75rem;
+		padding: 0.75rem; 
+		font-size: 1.6rem;
 
 		@include desktop { margin-right: 0.75rem; }
 
 		&.fa-play { padding: 0.75rem 0.8rem; }
+	}
+	
+	.button-text{
+		font-weight: 100;
 	}
 }
 
@@ -31,7 +35,7 @@
 
 .icon-text-list { margin-bottom: 3rem; }
 
-.button-center { text-align: center; }
+//.button-center { text-align: center; }
 
 .button {
 	
@@ -91,9 +95,6 @@
 		padding: 0 10rem;
 	}
 }
-
-
-
 
 
 .our-team--listing {

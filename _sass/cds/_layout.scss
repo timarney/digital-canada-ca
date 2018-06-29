@@ -58,6 +58,7 @@
       padding-bottom: 1rem;
       border-bottom: #000 1px solid;
       transition: all 0.3s ease-in-out;
+	    line-height: 0rem;
 
       &:hover {
         border-bottom: #CCC 1px solid;
@@ -108,8 +109,6 @@
 
   h1 {
     border-bottom   : none;
-    color           : $white;
-    font-family     : "HKGrotesk", sans-serif;
 //    font-weight     : 100;
     margin          : 1.5rem;
     padding         : 0;
@@ -203,14 +202,20 @@
     margin-top  : 35rem;
     top         : 20%;
   }
-
-  .h1 {
-    border-bottom: none !important;
-    line-height: 1.25em;
-//    @include tablet { font-size: 3rem; }
-
-//    @include desktop { font-size: 3.75rem; line-height: 1.35; }
-  }
+	
+	.h3{
+		color: $white;
+		border-bottom: none !important;
+		margin-top: 2rem;
+		
+		@include tablet{
+			margin-top: 0rem; 
+		}
+		@include desktop{
+			padding-right: 2rem;
+			margin-top: 2rem;
+		}
+	}
 
 }
 
