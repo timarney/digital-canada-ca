@@ -10,4 +10,4 @@ translationKey: test
 thumb: ''
 processed: ''
 ---
-test
+This is the main body copy.
