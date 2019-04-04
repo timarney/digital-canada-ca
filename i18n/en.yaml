@@ -1,11 +1,11 @@
 404:
-  other: "Page not Found"
+  other: "Sorry, eh?"
 aria-canada-website:
   other: "Government of Canada"
 aria-cds-website: 
   other: "Canadian Digital Service"
 blog:
-  other: "Blog"
+  other: "Read the blog"
 canada-ca: 
   other: "Visit Canada.ca"
 canada-ca-link:
@@ -31,7 +31,7 @@ homepage-tag-line:
 in-flight:
   other: "In flight products"
 key-contacts:
-  other: "Key Contacts"
+  other: "Key contacts"
 language-code:
   other: "en-ca"
 language-selection:
@@ -41,11 +41,11 @@ lang-switch-label:
 links:
   other: "Links"
 meet-the-full-team: 
-  other: "Meet the Full Team"
+  other: "The full team"
 next-post:
   other: "Next post"
 our-team:
-  other: "Our team"
+  other: "Meet the team"
 partner:
   other: "Partner"
 past-products:
@@ -61,7 +61,7 @@ privacy:
 privacy-link: 
   other: "/legal/privacy/"
 products:
-  other: "Products"
+  other: "View our products"
 read-more:
   other: "Read More"
 rss-feed-url:
@@ -85,6 +85,10 @@ twitter:
 view-product:
   other: "View this product"
 work-with-us:
-  other: "Work with us"
+  other: "Join our team"
 what-we-do:
   other: "What we do"
+featured-post:
+  other: "Learn more about how we work"
+more-posts:
+  other: "Read our blog"

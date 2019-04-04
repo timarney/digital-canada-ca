@@ -6,10 +6,10 @@ description: >
   recevoir les prestations et les remboursements auxquels ils ont droit en
   facilitant la production de leur déclaration de revenus.
 product-url: ''
-phase: discovery
+phase: alpha
 contact:
-  - email: kylie.havelock@cds-snc.ca
-    name: Kylie Havelock
+  - email: josh.ruihley@tbs-sct.gc.ca
+    name: Josh Ruihley
 partners:
   - name: Agence du revenu du Canada
     url: 'https://www.canada.ca/fr/agence-revenu.html'

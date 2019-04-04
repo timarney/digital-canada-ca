@@ -137,7 +137,7 @@
     background  : $dark-grey;
     clear       : both;
     display     : block;
-    height      : 40rem;
+    height      : 47rem;
     position    : relative;
     width       : 100%;
     z-index     : 1;
@@ -306,4 +306,36 @@ main {
   a {
     text-decoration: underline;
   }
+}
+
+.social-links-footer{
+  border-top: 4px solid #066169;
+  margin-bottom:3.5rem;
+}
+
+.social-links-footer ul{
+  display:flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.social-links-footer li:first-child{
+  margin-left:0;
+}
+
+.social-links-footer .contact-info li{
+  margin-top:3rem;
+  margin-bottom:1rem;
+  
+  @include mobile_only {
+    margin-top:2rem;
+    margin-bottom:2rem;
+  }
+}
+
+.social-links-footer h4{
+  display:flex;
+  justify-content: center;
+  margin-bottom: 0.5rem;
 }

@@ -1,11 +1,17 @@
 ---
-title: "Bridging the (language) gap - Open source en français"
-description: "Modern technologies are powerful, but the tech world is notoriously unilingual English. Many open source tools don’t provide the multilingual control we need, like the ability to swap to a version of the content in context. So how do we bridge this gap to deliver modern services to Canadians?"
-author: Eva Demers-Brett, Developer
-date: 2018-10-03 09:00:00 -0400
-image: /img/cds/blog-language-gap.png
+title: Bridging the (language) gap - Open source en français
+description: >-
+  Modern technologies are powerful, but the tech world is notoriously unilingual
+  English. Many open source tools don’t provide the multilingual control we
+  need, like the ability to swap to a version of the content in context. So how
+  do we bridge this gap to deliver modern services to Canadians?
+author: 'Eva Demers-Brett, Developer'
+date: '2018-10-03 09:00:00 -0400'
+image: /img/cds/blog-language-gap.jpg
 image-alt: A French Poodle and an English Bulldog sitting in front of laptops.
-translationKey: "language-gap"
+translationKey: language-gap
+thumb: /img/cds/thumbnails/blog-language-gap.jpg
+processed: 1550672961723
 ---
 
 When choosing open source tools, one of the biggest obstacles we run into is language, or rather, a lack of the French language. Adapting an application to the local language is known as internationalisation, or [i18n](https://en.wikipedia.org/wiki/Internationalization_and_localization) for short. In Canada, we have the unique challenge of providing a robust, accessible experience in French and English, our official languages. Modern technologies are powerful, but the tech world is notoriously unilingual English. Many open source tools don’t provide the multilingual control we need, like the ability to swap to a version of the content in context. So how do we bridge this gap to deliver modern services to Canadians?
@@ -28,6 +34,6 @@ We’ve been researching content management systems (CMS) that we can attach to 
 
 One thing’s for sure - we have work to do in the open source space regarding i18n, especially as we modernize services for Canadians. In some cases, it’s all about finding the right tool. In others, we have an opportunity to build and contribute our own i18n tools.
 
-Do you have similar struggles? Have you found any great open source i18n tools? [Please share them with us](https://digital.canada.ca/contact/)!
+Do you have similar struggles? Have you found any great open source i18n tools? [Please share them with us](#contact-us-links)!
 
 Oh and, sorry to the developer who went through the process to publish this post. We promise we’re working on it.
